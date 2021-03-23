@@ -38,7 +38,7 @@ ________________________________________________________________________________
   Since you have Github installed and spent 3 whole minutes perusing the quickstart guide before being bored you are now ready for a installing some software. 
   
   The first thing we need if we are going to be working with code is a code editor. For the sake of this work we will be using Vissual Studio Code. There are quite a few code editors oout there and whiel they are all good and customizable we will be using Visual Studio Code for our work. If you want to look into some other vode editors I have compiled a few other options for you.
-  * [Brackets](http://brackets.io/) A good editor from Adobe BUT they are discontinuing it in Septemeber of this year.
+  * [Brackets](http://brackets.io/) A good editor from Adobe BUT they are discontinuing it in Septemeber of this year. Maybe Dan can talk to them about keeping it around. 😄
   * [Atom](https://atom.io/) Another really cusstomizable eidtor and this one is made by Github.
   * [Notepad++](https://notepad-plus-plus.org/) Windows only editor that has a cult following and gets love from everyone for being a great free editor.
   
@@ -149,10 +149,14 @@ pip install asyncio
 ## [Bonus Time](#Bonus-Time)
 What are some other things we could create in this way?
 
-* slides
-* upcoming team call topics
-* side projects
-* trick out this README?
+* Slides 😑
+* Upcoming team call topics ❓
+* Take on a side projects 
+   * Webex for Developers https://github.com/webex?language=python
+   * Power Platform Connectors https://github.com/webex/PowerPlatformConnectors
+   * Bot Framework https://github.com/jpjpjp/webex-bot-python
+   * DevNet Webex Repo https://github.com/CiscoDevNet/awesome-webex
+* Trick out this README?
    * https://shields.io/
    * https://coderwall.com/p/fy05hq/how-to-make-beautiful-github-readme
    * https://github.com/othneildrew/Best-README-Template
