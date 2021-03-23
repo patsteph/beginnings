@@ -10,7 +10,7 @@
 * Add Your Name Here
 
 ## <a name="Tools2Use"></a>Tools2Use
-* [Visual Studio Code>(https://code.visualstudio.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew)
 * Python 3.7.3
 * pip
