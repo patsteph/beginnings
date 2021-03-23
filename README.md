@@ -48,9 +48,9 @@ ________________________________________________________________________________
   
   [PC Instructions](https://www.apple.com/shop/buy-mac/macbook-pro)
   
-  Did you click that? Are you mad now? It is a joke. (but do you really hav a PC)
+  Did you click that? Are you mad now? It is a joke. 😆 (do you really have a PC)
   
-  [Mac Installation]
+  [Mac Installation](https://docs.python-guide.org/starting/install3/osx/)
   
   Step 1. Install [Xcode](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) on your Mac. Once it is installed move on to step 1a.
      Step 1a. Open Terminal and type the following: 
