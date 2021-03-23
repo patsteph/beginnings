@@ -25,6 +25,9 @@ ________________________________________________________________________________
 * [Challenge 1](#Challenge-1)
 * [Challenge 2](#Challenge-2)
 * [Challenge 3](#Challenge-3)
+* [Challenge 4](#Challenge-4)
+* [Challenge 5](#Challenge-5) Coming Soon!
+* [Challenge 6](#Challenge-6) Coming Soon!
 * [Bonus Time](#Bonus-Time)
 
 ## <a name="prepping-your-environment"><a/>Prepping your environment
@@ -85,7 +88,7 @@ ________________________________________________________________________________
   Once you fork the repository you will see it has all the ssame components as this main site but it will be in your github environment. 
       Example: I forked the repository logged in as me and it creates https://github.com/patsteph/beginnings 
   
-  Now lets get the file local to work on it. 
+  Now lets get the file local so we can work on it. 
   
 ```
 cd ~/coding
@@ -118,6 +121,30 @@ In GitHub in your repository, click the "New pull request" button
 You'll be given a chance to view the changes, and then click "Create pull request" Be sure and add a note with it so I know what I am pulling into the main repo. 
 
 After opening, you'll be taken back to the PR list on the upstream repository. 
+
+## <a name="Challenge-4"><a/>Challenge 4
+
+Why dont we try working on some Python code specific to our endpoints. Chris had posted this in our Webex space. Lets get a copy of the xAPI over WebSockets Library and work with it on our local machine. The main github site for this library is here [PYOWS](https://github.com/cisco-ce/pyxows).
+
+```
+git clone https://github.com/cisco-ce/pyxows.git
+```
+
+Now that you have your own copy you can work on it. Navigate locally to your pyxows directory. Once in your pyxows directory run the setup script.
+
+```
+python setup.py install
+```
+
+Now install the async library. 
+
+```
+pip install asyncio
+```
+
+## <a name="Challenge-5"><a/>Challenge 5 Coming Soon!
+  
+## <a name="Challenge-6"><a/>Challenge 6 Coming Soon!
 
 ## [Bonus Time](#Bonus-Time)
 What are some other things we could create in this way?
