@@ -21,8 +21,9 @@ This is just a playground to get familiar with what you need for the other cours
 * [PC or Mac](https://youtu.be/qfv6Ah_MVJU)
 * [Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 * [A Healthy Curiosity](https://www.entrepreneur.com/article/345981)
+__________________________________________________________________________________________
 
-## The Recipe
+## 
 
 
 
