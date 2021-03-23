@@ -44,22 +44,51 @@ ________________________________________________________________________________
   Now that that is done, select your platfrom from below for some more things to install. 
   
   [PC Instructions](https://www.apple.com/shop/buy-mac/macbook-pro)
+  
   Did you click that? Are you mad now? It is a joke. (but do you really hav a PC)
   
   [Mac Installation]
+  
   Step 1. Install [Xcode](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) on your Mac. Once it is installed move on to step 1a.
-    Step 1a. Open Terminal and type the following: 
+     Step 1a. Open Terminal and type the following: 
+    
     ``` xcode-select --install ```
+       
   Step 2. Run the following command to install Homebrew on your Mac.  
+  
     ``` $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ```
+     
   Step 3. Now we need to update the stock Python on the Mac from 2.x to 3.7. Let's run this in terminal to update Python.
+  
     ``` brew install python ```
-  Step 4. Now we are getting somewhere. BTW PIP should have been installed with Homebrew but we can uupdate it with the following command from terminal. 
+    
+  Step 4. Now we are getting somewhere. BTW PIP should have been installed with Homebrew but we can uupdate it with the following command from terminal.
+  
     ``` python -m pip install -U pip ```
   
   We should have all the software we need to get started. Now we are going to move onto Challenge 1. 
   
   ## <a name="Challenge-1"><a/>Challenge 1
+  
+  ### Hello World
+  Build and run a Python script (Hello World), ensuring to use a virtual environment to do it per pluralsight course on setting up a workspace and using PIP all using Visual Studio Code.
+  
+  ## <a name="Challenge-2"><a/>Challenge 2
+  
+  ### Local to Git
+  Create a new git repo locally, commit your script to it and push it to a new repo on Github.
+  
+  ## <a name="Challenge-3"><a/>Challenge 3
+  
+  ### Build as a team
+  Step 1. Fork this reposiory.(You are already looking a the README.md so you are on the right site to fork, but just to make sure and look in the URL for github.com/GESWCollab/beginnings
+  Once you fork the repository you will see it has all hte ssame components as this main site but it will be in your github environment. 
+  Example: I forked the repository logged in as me and it created https://github.com/patsteph/beginnings and when you fork it it will create https://github.com/<your_username>/beginnings
+  
+  
+  
+  
+  
   
  
   
