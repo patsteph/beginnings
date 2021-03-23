@@ -80,11 +80,57 @@ ________________________________________________________________________________
   
   ## <a name="Challenge-3"><a/>Challenge 3
   
-  ### Build as a team
+  ### Build as a team - Forking
   Step 1. Fork this reposiory.(You are already looking a the README.md so you are on the right site to fork, but just to make sure and look in the URL for github.com/GESWCollab/beginnings
-  Once you fork the repository you will see it has all hte ssame components as this main site but it will be in your github environment. 
-  Example: I forked the repository logged in as me and it created https://github.com/patsteph/beginnings and when you fork it it will create https://github.com/<your_username>/beginnings
+  Once you fork the repository you will see it has all the ssame components as this main site but it will be in your github environment. 
+      Example: I forked the repository logged in as me and it creates https://github.com/patsteph/beginnings 
   
+  Now lets get the file local to work on it. 
+  
+```
+cd ~/coding
+git clone https://github.com/<YOUR GITHUB USER>/beginnings
+```
+
+Change into that local directory and make sure you see the README.md file.
+
+```
+cd beginnings
+ls -la
+```
+
+Now that you know the file is there lets open it with Visual Studio code and make some Markdown changes. 
+
+In Code click File --> Open... Navigate to your coding/beginnings folder and select the README.md file. 
+
+Once the file opens find the Team Members section and add your name and email with appropriate formatting. Now that you have it updated we need to push it back up tot the cloud.
+
+```
+git add README.md
+git commit -m "Added <your name> to README file"
+git push
+```
+
+You have now written a code change but that code is only in your FORK of the repository, not the original repo.  We can ask that the ppstream repository to "PULL" our changes into it by opening a "Pull Request"
+
+In GitHub in your repository, click the "New pull request" button
+
+You'll be given a chance to view the changes, and then click "Create pull request" Be sure and add a note with it so I know what I am pulling into the main repo. 
+
+After opening, you'll be taken back to the PR list on the upstream repository. 
+
+## [Bonus Time](#Bonus-Time)
+What are some other things we could create in this way?
+
+* slides
+* upcoming team call topics
+* side projects
+* trick out this README?
+   * https://shields.io/
+   * https://coderwall.com/p/fy05hq/how-to-make-beautiful-github-readme
+   * https://github.com/othneildrew/Best-README-Template
+
+
   
   
   
