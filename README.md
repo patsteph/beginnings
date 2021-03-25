@@ -66,10 +66,18 @@ ________________________________________________________________________________
   
     brew install python
     
-  Step 4. Now we are getting somewhere. BTW PIP should have been installed with Homebrew but we can uupdate it with the following command from terminal.
+  Step 4. Now we are getting somewhere. BTW PIP should have been installed with Homebrew but we can update it with the following command from terminal.
 
     python -m pip install -U pip
   
+  Step 5. (Optional) If your python is showing as 2.7 instead of 3.x then manually set the python version to 3.9.
+  
+    ln -s -f /usr/local/bin/python3.9 /usr/local/bin/python
+
+  After you run this command you have to quit terminal and relaunch to check the version. 
+  
+    python --version
+    
   We should have all the software we need to get started. Now we are going to move onto Challenge 1. 
   
   ## <a name="Challenge-1"><a/>Challenge 1
