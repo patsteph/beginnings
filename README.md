@@ -26,7 +26,7 @@ ________________________________________________________________________________
 * [Challenge 1](#Challenge-1)
 * [Challenge 2](#Challenge-2)
 * [Challenge 3](#Challenge-3)
-* [Challenge 3 Alternate] (Challenge-3-Alternate)
+* [Challenge 3 Alternate](Challenge-3-Alternate)
 * [Challenge 4](#Challenge-4)
 * [Challenge 5](#Challenge-5) Coming Soon!
 * [Challenge 6](#Challenge-6) Coming Soon!
@@ -131,6 +131,7 @@ In GitHub in your repository, click the "New pull request" button
 You'll be given a chance to view the changes, and then click "Create pull request" Be sure and add a note with it so I know what I am pulling into the main repo. 
 
 After opening, you'll be taken back to the PR list on the upstream repository. 
+
 ## <a name="Challenge-3-Alternate"><a/>Challenge 3 Alternate
 
 We can actually do all the Forking exercise on the web as well. Here are the Alternate instructions.
