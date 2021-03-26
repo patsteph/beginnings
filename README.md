@@ -7,7 +7,7 @@ This is just a playground to get familiar with what you need for the other cours
 * [Tools2Use](#Tools2Use)
 
 ## <a name="team-members"></a>Team Members
-* "Patrick Stephens" <patsteph@cisco.com>
+* "Patrick J Stephens" <patsteph@cisco.com>
 * Add Your Name Here
 
 ## <a name="Tools2Use"></a>Tools2Use
