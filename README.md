@@ -172,6 +172,8 @@ Once I create the Pull request it opens up to a semi-confusing page but it is ba
 ![Pull Request Detail Merge View](https://user-images.githubusercontent.com/22937301/112692660-4cf9d700-8e4d-11eb-8f2a-06743eb1269e.png)
 
 ![It Worked!!!](https://user-images.githubusercontent.com/22937301/112692801-8599b080-8e4d-11eb-955c-eacd477c3dc6.png)
+
+Great Job! We will work on some autmatic ways to compare and merge in a later Challenge so that we can skip some of this stuff. 
   
 ## <a name="Challenge-4"><a/>Challenge 4
 
