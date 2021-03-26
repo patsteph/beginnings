@@ -167,9 +167,15 @@ Once I create the Pull request it opens up to a semi-confusing page but it is ba
 
 ![Compare Pull Request](https://user-images.githubusercontent.com/22937301/112692194-90a01100-8e4c-11eb-8c78-238d1efc4364.png)
 
+Now I get a chance to add comments on what I did and why. 
+
 ![Pull Request Detail and Comments](https://user-images.githubusercontent.com/22937301/112692389-d9f06080-8e4c-11eb-902f-e276f079aa62.png)
 
+This picture is from the main GESWCollab repositry and it tells me someone made changes and it shows me their comments and lets me know that there is no code conflicts so it is safe to merge. I trust myself so I will merge. 😉
+
 ![Pull Request Detail Merge View](https://user-images.githubusercontent.com/22937301/112692660-4cf9d700-8e4d-11eb-8f2a-06743eb1269e.png)
+
+Once the code is merge the page will refresh and I will see that there is a merge comment at the top of the age and since we were editing the Readme.md which is displayed on this page we will see my edits. 
 
 ![It Worked!!!](https://user-images.githubusercontent.com/22937301/112692801-8599b080-8e4d-11eb-955c-eacd477c3dc6.png)
 
