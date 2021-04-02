@@ -8,6 +8,7 @@ This is just a playground to get familiar with what you need for the other cours
 
 ## <a name="team-members"></a>Team Members
 * "Patrick J Stephens" <patsteph@cisco.com>
+* "Daniel Skavdal" <dskavdal@cisco.com>
 * Add Your Name Here
 
 ## <a name="Tools2Use"></a>Tools2Use
