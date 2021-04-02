@@ -7,7 +7,7 @@ This is just a playground to get familiar with what you need for the other cours
 * [Tools2Use](#Tools2Use)
 
 ## <a name="team-members"></a>Team Members
-* "Patrick Stephens" <patsteph@cisco.com>
+* "Patrick J Stephens" <patsteph@cisco.com>
 * Add Your Name Here
 
 ## <a name="Tools2Use"></a>Tools2Use
@@ -26,6 +26,7 @@ ________________________________________________________________________________
 * [Challenge 1](#Challenge-1)
 * [Challenge 2](#Challenge-2)
 * [Challenge 3](#Challenge-3)
+* [Challenge 3 Alternate](Challenge-3-Alternate)
 * [Challenge 4](#Challenge-4)
 * [Challenge 5](#Challenge-5) Coming Soon!
 * [Challenge 6](#Challenge-6) Coming Soon!
@@ -66,10 +67,18 @@ ________________________________________________________________________________
   
     brew install python
     
-  Step 4. Now we are getting somewhere. BTW PIP should have been installed with Homebrew but we can uupdate it with the following command from terminal.
+  Step 4. Now we are getting somewhere. BTW PIP should have been installed with Homebrew but we can update it with the following command from terminal.
 
     python -m pip install -U pip
   
+  Step 5. (Optional) If your python is showing as 2.7 instead of 3.x then manually set the python version to 3.9.
+  
+    ln -s -f /usr/local/bin/python3.9 /usr/local/bin/python
+
+  After you run this command you have to quit terminal and relaunch to check the version. 
+  
+    python --version
+    
   We should have all the software we need to get started. Now we are going to move onto Challenge 1. 
   
   ## <a name="Challenge-1"><a/>Challenge 1
@@ -123,6 +132,56 @@ You'll be given a chance to view the changes, and then click "Create pull reques
 
 After opening, you'll be taken back to the PR list on the upstream repository. 
 
+## <a name="Challenge-3-Alternate"><a/>Challenge 3 Alternate
+
+We can actually do all the Forking exercise on the web as well. Here are the Alternate instructions.
+
+First make sure you are logged in (upper right corner) and then click the Fork button below the login area.
+
+![Fork Repo](https://user-images.githubusercontent.com/22937301/112664621-28d7cf00-8e28-11eb-9e30-18d9d168a3bb.png)
+
+Now you will be switched over to your forked (copy) version of the main repository. Notice it says my Github username and not GESWCollab. 
+
+![My Forked Repository](https://user-images.githubusercontent.com/22937301/112665062-a56aad80-8e28-11eb-9fa7-21fa72e7e18d.png)
+
+In the center of my Readme.md page on the right side there is a pencil. Click that. 
+
+![Forked Readme md](https://user-images.githubusercontent.com/22937301/112665792-6ee16280-8e29-11eb-8bea-eb93f5ba78b1.png)
+
+Once in the editor mode you can see all the Markdown language and you can go edit to insert your name and email information. (You can also preview changes before commiting)
+
+![Readme md editor](https://user-images.githubusercontent.com/22937301/112666391-237b8400-8e2a-11eb-947c-883fab4d3be7.png)
+
+Now that I have edited the Readme.md I want to put a note on the commit for WHY I did something to the code. This is a simple name change or add but in real code it could be a bug fix.
+
+![Commit Message](https://user-images.githubusercontent.com/22937301/112666633-62a9d500-8e2a-11eb-8296-6d7043784ed6.png)
+
+After I click Commit changes, my screen will change back to non editor mode and I will see the note from my commit as a message letting me know what has been done. Again not a huge thing when you are working on your code and making a small change like name update but on a larger team with many people making fixes and changes it is a nice to know.
+
+![My Commit shows ](https://user-images.githubusercontent.com/22937301/112691026-b3c9c100-8e4a-11eb-8ad6-301997f00731.png)
+
+Now that I have updated code in my Forked repository I need to let the main project know that I made updates and let them decide if they want that in their main code base. I need to create a Pull Request. 
+
+![Create Pull Requests](https://user-images.githubusercontent.com/22937301/112691319-23d84700-8e4b-11eb-9e02-7ba4c46f67e2.png)
+
+Once I create the Pull request it opens up to a semi-confusing page but it is basically saying I want my changes to go to the main project code base. I have indicated the "from" and "to" fields in the picture. You can also see that handy note about WHAT I changed in the Commits section below. 
+
+![Compare Pull Request](https://user-images.githubusercontent.com/22937301/112692194-90a01100-8e4c-11eb-8c78-238d1efc4364.png)
+
+Now I get a chance to add comments on what I did and why. 
+
+![Pull Request Detail and Comments](https://user-images.githubusercontent.com/22937301/112692389-d9f06080-8e4c-11eb-902f-e276f079aa62.png)
+
+This picture is from the main GESWCollab repositry and it tells me someone made changes and it shows me their comments and lets me know that there is no code conflicts so it is safe to merge. I trust myself so I will merge. 😉
+
+![Pull Request Detail Merge View](https://user-images.githubusercontent.com/22937301/112692660-4cf9d700-8e4d-11eb-8f2a-06743eb1269e.png)
+
+Once the code is merge the page will refresh and I will see that there is a merge comment at the top of the age and since we were editing the Readme.md which is displayed on this page we will see my edits. 
+
+![It Worked!!!](https://user-images.githubusercontent.com/22937301/112692801-8599b080-8e4d-11eb-955c-eacd477c3dc6.png)
+
+Great Job! We will work on some autmatic ways to compare and merge in a later Challenge so that we can skip some of this stuff. 
+  
 ## <a name="Challenge-4"><a/>Challenge 4
 
 Why dont we try working on some Python code specific to our endpoints. Chris had posted this in our Webex space. Lets get a copy of the xAPI over WebSockets Library and work with it on our local machine. The main github site for this library is here [PYOWS](https://github.com/cisco-ce/pyxows).
